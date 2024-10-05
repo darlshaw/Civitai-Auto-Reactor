@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civitai Auto React</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Civitai Auto React</h1>
+        <div class="input-group">
+            <label for="postCount">Number of posts to react:</label>
+            <input type="number" id="postCount" min="1" value="10">
+        </div>
+        <div class="input-group">
+            <label for="timeout">Timeout between reactions (ms):</label>
+            <input type="number" id="timeout" min="1000" value="1000">
+        </div>
+        <button id="autoReact">Start Auto React</button>
+        <div id="status" class="status"></div>
+        <div class="sponsor-section">
+            <p class="funny-phrase">If this extension saves you time, consider buying me a coffee! I promise I won't use it to stay up all night coding more extensions... maybe. 😉</p>
+            <a href="https://www.buymeacoffee.com/boredjun" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a><script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="boredjun" data-color="#FFDD00" data-emoji="☕"  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
